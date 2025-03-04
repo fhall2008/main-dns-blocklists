@@ -1,7 +1,0 @@
-    steps:
-    - name: Checkout the repo
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0 
-        path-to-root: .
-        base-url-path: https://blocklists.findlayhall.com/
